@@ -105,7 +105,7 @@ const Menu = () => {
                 <CardDescription className="line-clamp-2">{item.description}</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-2xl font-bold text-primary">${item.price.toFixed(2)}</p>
+                <p className="text-2xl font-bold text-primary">₹{item.price.toFixed(2)}</p>
               </CardContent>
               <CardFooter>
                 <Button 
